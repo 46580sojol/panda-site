@@ -51,3 +51,50 @@ nav a{
     color: blueviolet;
 
 }
+/* banner section style */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    max-width: 1280px;
+    margin: 50px auto;
+    background-color: #FEEAE9;
+    border-radius: 20px;
+    padding: 20px 40px;
+    /* border: 1px solid red; */
+}
+.banner-title{
+    font-size: 56px;
+    color: #1F1F1F;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+.banner-des{
+    font-size: 20px;
+    color: #1F1F1F;
+    padding-right: 300px;
+    margin-bottom: 20px;
+}
+.price{
+    font-size: 46px;
+    color: #FF136F;
+    font-weight: bold;
+}
+.btn1{
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: #1F1F1F;
+    color: #ff0d00;
+    margin-top: 20px;
+    padding: 10px 10px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px rgb(205, 240, 205);
+}
+.banner-img{
+    max-width: 400px;
+}
+
+ .banner-img img{
+    width: 100%;
+}
