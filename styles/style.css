@@ -84,7 +84,7 @@ nav a{
 .btn1{
     font-size: 18px;
     font-weight: bolder;
-    background-color: #1F1F1F;
+  background: linear-gradient(180deg,rgb(63, 63, 2),rgb(7, 29, 1));
     color: #ff0d00;
     margin-top: 20px;
     padding: 10px 10px;
@@ -97,4 +97,52 @@ nav a{
 
  .banner-img img{
     width: 100%;
+}
+/* category section style */
+.category{
+    max-width: 1280px;
+    margin: 20px auto;
+}
+.category img{
+    max-width: 60px;
+    
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+}
+.category-title{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.card1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg,green,red);
+    gap: 60px;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+.card2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg,black,green);
+    gap: 60px;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+.card3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg,blue, green);
+    gap: 60px;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+.card-title{
+    font-size: 30px;
+    color: #FEEAE9;
 }
