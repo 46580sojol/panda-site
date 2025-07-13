@@ -1,0 +1,53 @@
+/* panda site style */
+*{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    margin: 20px auto;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 20px;
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.input-ct{
+    position: relative;
+   
+}
+.input-ct input{
+    width: 450px;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: none;
+    background-color: aliceblue;
+ 
+
+}
+.input-ct i{
+    position: absolute;
+    top: 13px;
+    right: 20px;
+    color: blueviolet;
+
+}
