@@ -277,3 +277,51 @@ nav a{
     border-radius: 20px;
     margin-bottom: 20px;
 }
+/* foot section style */
+.foot{
+    background-color: rgb(252, 229, 229);
+    max-width: 1280px;
+     margin: 40px auto;
+     border-radius: 20px;
+}
+.foot-container{
+    text-align: center;
+    padding: 100px 0px ;
+   
+}
+.foot-title{
+    font-size: 40px;
+    color: #1F1F1F;
+    font-weight: 900;
+    padding: 10px 20px;
+}
+.foot-des{
+    font-size: 20px;
+    color: #1F1F1F;
+    font-weight: 900;
+    padding: 10px 20px;
+}
+.panda-input{
+    display: flex;
+    justify-content:center;
+    margin-top: 20px;
+    align-items: center;
+}
+.panda-input input{
+    font-size: 18px;
+    color: #FEEAE9;
+    padding: 15px ;
+     border-radius: 10px 0px 0px 10px;
+     background-color: #1F1F1F;
+        border: none;
+}
+input::placeholder{
+    color: #FF136F;
+}
+.btn3{
+     font-size: 18px;
+    padding: 15px 40px ;
+   border-radius: 0px 10px 10px 0px;
+   background-color: #FF136F;
+   border: none;
+}
